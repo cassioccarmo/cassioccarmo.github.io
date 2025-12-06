@@ -1,34 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-lang="pt" data-en="Projects" data-pt="Projetos"></title>
-    <!-- Link para o arquivo CSS externo -->
+    <title>Projects</title>
     <link rel="stylesheet" href="styles/style.css">
-    <!-- Link para o arquivo JavaScript externo -->
     <script src="scripts/script.js" defer></script>
 </head>
+
 <body>
+
     <header>
-        <h1 data-lang="pt" data-en="Projects" data-pt="Projetos"></h1>
+        <h1>Projects</h1>
         <nav>
             <ul>
-                <li><a href="index.html" data-lang="pt" data-en="Home" data-pt="Início"></a></li>
-                <li><a href="about.html" data-lang="pt" data-en="About" data-pt="Sobre"></a></li>
-                <li><a href="projects.html" data-lang="pt" data-en="Projects" data-pt="Projetos"></a></li>
-                <li><a href="contact.html" data-lang="pt" data-en="Contact" data-pt="Contato"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <button class="lang-btn" onclick="toggleLanguage()">EN/PT</button>
     </header>
     
     <div class="container">
-        <h2 data-lang="pt" data-en="My Projects" data-pt="Meus Projetos"></h2>
-        
+        <h2>My Projects</h2>
+
+        <!-- Professional Projects -->
+        <h3>Professional Projects</h3>
+
         <div class="project">
-            <h3 data-lang="pt" data-en="Exemple" data-pt="Exampleo"></h3>
-            <p data-lang="pt" data-en="XXXXX" data-pt="XXXXX"></p>
+            <h4>Automotive ECU Embedded Software — Marelli (2024–Present)</h4>
+            <p>
+                Development and optimization of embedded software for combustion engine ECUs, 
+                including diagnostics, safety improvements, communication interfaces and performance enhancements.
+            </p>
+        </div>
+
+        <div class="project">
+            <h4>Autonomous Drone Firmware — Arys (2022–2024)</h4>
+            <p>
+                Embedded software development for autonomous spraying drones, integrating multiple sensors, 
+                telemetry modules, flight control systems and real-time data processing.
+            </p>
+        </div>
+
+        <div class="project">
+            <h4>Residential Automation System — Scenario Automation (2021–2022)</h4>
+            <p>
+                Firmware for smart home automation devices, focusing on wireless communication, 
+                data acquisition, reliability and embedded control logic.
+            </p>
+        </div>
+
+        <div class="project">
+            <h4>Drone Embedded Systems & GNSS Processing — XMobots (2020–2021)</h4>
+            <p>
+                Embedded development for drones and ground stations, wireless communication using WiFi, 
+                Bluetooth and LoRa, and GNSS post-processing (PPP, PPK, RTK).
+            </p>
+        </div>
+
+        <!-- Academic Projects -->
+        <h3>Academic Projects</h3>
+
+        <div class="project">
+            <h4>ZigBee Radiolocation System — Research Project</h4>
+            <p>
+                Localization of wireless ZigBee nodes using signal strength and multi-node triangulation, 
+                with embedded processing for distributed sensor networks.
+            </p>
+        </div>
+
+        <div class="project">
+            <h4>Neural Network Leaf Disease Detection — UFSCar</h4>
+            <p>
+                Machine learning system for identifying plant leaf diseases using image processing 
+                and neural-based classification.
+            </p>
+        </div>
+
+        <div class="project">
+            <h4>Telemetry System for Baja UFSCar</h4>
+            <p>
+                Development of PCB hardware and telemetry software for off-road vehicle monitoring 
+                in the Baja SAE competition.
+            </p>
         </div>
 
     </div>
@@ -36,5 +92,6 @@
     <footer>
         <p>© 2025 Cássio Cioni Carmo</p>
     </footer>
+
 </body>
 </html>
