@@ -3,95 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <meta name="description" content="Professional and academic embedded software projects by Cássio Cioni Carmo.">
+    <meta name="theme-color" content="#07110e">
+    <title>Projects — Cássio Cioni Carmo</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/script.js" defer></script>
 </head>
-
 <body>
-
-    <header>
-        <h1>Projects</h1>
-        <nav>
-            <ul>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Cássio Carmo — Home">
+            <span class="brand-mark">CC</span>
+            <span class="brand-name">Cássio Carmo<span class="brand-role">Embedded Software Engineer</span></span>
+        </a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <div class="container">
-        <h2>My Projects</h2>
 
-        <!-- Professional Projects -->
-        <h3>Professional Projects</h3>
+    <main id="main-content" class="page-main">
+        <section class="page-heading">
+            <p class="eyebrow">Selected work</p>
+            <h1>Projects built for the <span>real world.</span></h1>
+            <p class="page-lead">A selection of professional and academic work in embedded systems, firmware, and engineering.</p>
+        </section>
 
-        <div class="project">
-            <h4>Automotive ECU Embedded Software — Marelli (2024–Present)</h4>
-            <p>
-                Development and optimization of embedded software for combustion engine ECUs, 
-                including diagnostics, safety improvements, communication interfaces and performance enhancements.
-            </p>
-        </div>
+        <section class="project-section" aria-labelledby="professional-projects">
+            <div class="section-heading">
+                <h2 id="professional-projects">Professional experience</h2>
+                <span class="section-count">01 — 04</span>
+            </div>
+            <div class="project-grid">
+                <article class="project-card panel">
+                    <p class="project-meta">Marelli <span>2024–Present</span></p>
+                    <h3>Automotive ECU Embedded Software</h3>
+                    <p>Development and optimization of combustion engine ECU software, including diagnostics, safety improvements, communication interfaces, and performance enhancements.</p>
+                    <div class="tag-list"><span>Automotive</span><span>ECU</span><span>Embedded C</span></div>
+                </article>
+                <article class="project-card panel">
+                    <p class="project-meta">Arys <span>2022–2024</span></p>
+                    <h3>Autonomous Drone Firmware</h3>
+                    <p>Embedded software for autonomous spraying drones, integrating sensors, telemetry modules, flight control systems, and real-time data processing.</p>
+                    <div class="tag-list"><span>Firmware</span><span>Sensors</span><span>Telemetry</span></div>
+                </article>
+                <article class="project-card panel">
+                    <p class="project-meta">Scenario Automation <span>2021–2022</span></p>
+                    <h3>Residential Automation System</h3>
+                    <p>Firmware for smart home automation devices, with a focus on wireless communication, data acquisition, reliability, and embedded control logic.</p>
+                    <div class="tag-list"><span>Automation</span><span>IoT</span><span>Embedded systems</span></div>
+                </article>
+                <article class="project-card panel">
+                    <p class="project-meta">XMobots <span>2020–2021</span></p>
+                    <h3>Drone Systems &amp; GNSS Processing</h3>
+                    <p>Embedded development for drones and ground stations, wireless communication, and GNSS post-processing using PPP, PPK, and RTK.</p>
+                    <div class="tag-list"><span>GNSS</span><span>LoRa</span><span>Wi-Fi</span></div>
+                </article>
+            </div>
+        </section>
 
-        <div class="project">
-            <h4>Autonomous Drone Firmware — Arys (2022–2024)</h4>
-            <p>
-                Embedded software development for autonomous spraying drones, integrating multiple sensors, 
-                telemetry modules, flight control systems and real-time data processing.
-            </p>
-        </div>
+        <section class="project-section" aria-labelledby="academic-projects">
+            <div class="section-heading">
+                <h2 id="academic-projects">Academic projects</h2>
+                <span class="section-count">01 — 03</span>
+            </div>
+            <div class="project-grid">
+                <article class="project-card panel">
+                    <p class="project-meta">Research project</p>
+                    <h3>ZigBee Radiolocation System</h3>
+                    <p>Localization of wireless ZigBee nodes using signal strength and multi-node triangulation, with embedded processing for distributed sensor networks.</p>
+                    <div class="tag-list"><span>ZigBee</span><span>Localization</span></div>
+                </article>
+                <article class="project-card panel">
+                    <p class="project-meta">UFSCar</p>
+                    <h3>Neural Network Leaf Disease Detection</h3>
+                    <p>Machine learning system for identifying plant leaf diseases using image processing and neural-based classification.</p>
+                    <div class="tag-list"><span>Machine learning</span><span>Image processing</span></div>
+                </article>
+                <article class="project-card panel">
+                    <p class="project-meta">Baja UFSCar</p>
+                    <h3>Vehicle Telemetry System</h3>
+                    <p>Development of PCB hardware and telemetry software for monitoring an off-road vehicle in the Baja SAE competition.</p>
+                    <div class="tag-list"><span>PCB</span><span>Telemetry</span><span>Automotive</span></div>
+                </article>
+            </div>
+        </section>
+    </main>
 
-        <div class="project">
-            <h4>Residential Automation System — Scenario Automation (2021–2022)</h4>
-            <p>
-                Firmware for smart home automation devices, focusing on wireless communication, 
-                data acquisition, reliability and embedded control logic.
-            </p>
-        </div>
-
-        <div class="project">
-            <h4>Drone Embedded Systems & GNSS Processing — XMobots (2020–2021)</h4>
-            <p>
-                Embedded development for drones and ground stations, wireless communication using WiFi, 
-                Bluetooth and LoRa, and GNSS post-processing (PPP, PPK, RTK).
-            </p>
-        </div>
-
-        <!-- Academic Projects -->
-        <h3>Academic Projects</h3>
-
-        <div class="project">
-            <h4>ZigBee Radiolocation System — Research Project</h4>
-            <p>
-                Localization of wireless ZigBee nodes using signal strength and multi-node triangulation, 
-                with embedded processing for distributed sensor networks.
-            </p>
-        </div>
-
-        <div class="project">
-            <h4>Neural Network Leaf Disease Detection — UFSCar</h4>
-            <p>
-                Machine learning system for identifying plant leaf diseases using image processing 
-                and neural-based classification.
-            </p>
-        </div>
-
-        <div class="project">
-            <h4>Telemetry System for Baja UFSCar</h4>
-            <p>
-                Development of PCB hardware and telemetry software for off-road vehicle monitoring 
-                in the Baja SAE competition.
-            </p>
-        </div>
-
-    </div>
-    
-    <footer>
-        <p>© 2025 Cássio Cioni Carmo</p>
+    <footer class="site-footer">
+        <span>© 2026 Cássio Cioni Carmo</span>
+        <a class="text-link" href="contact.html">Have a project in mind? <span aria-hidden="true">→</span></a>
     </footer>
-
 </body>
 </html>

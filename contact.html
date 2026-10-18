@@ -3,46 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <meta name="description" content="Contact Cássio Cioni Carmo about embedded software, firmware, and engineering opportunities.">
+    <meta name="theme-color" content="#07110e">
+    <title>Contact — Cássio Cioni Carmo</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/script.js" defer></script>
 </head>
-
 <body>
-
-    <header>
-        <h1>Contact</h1>
-        <nav>
-            <ul>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Cássio Carmo — Home">
+            <span class="brand-mark">CC</span>
+            <span class="brand-name">Cássio Carmo<span class="brand-role">Embedded Software Engineer</span></span>
+        </a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <div class="container">
-        <h2>Get in Touch</h2>
 
-        <p><strong>Email:</strong> <a href="mailto:cassiocioni@hotmail.com">cassiocioni@hotmail.com</a></p>
+    <main id="main-content" class="page-main contact-main">
+        <section class="page-heading">
+            <p class="eyebrow">Let's connect</p>
+            <h1>Good engineering starts with <span>a conversation.</span></h1>
+            <p class="page-lead">Have a project, opportunity, or idea to discuss? Choose the channel that works best for you.</p>
+        </section>
 
-        <p><strong>LinkedIn:</strong> 
-            <a href="https://www.linkedin.com/in/cassioccarmo" target="_blank">
-                linkedin.com/in/cassioccarmo
+        <section class="contact-grid" aria-label="Contact options">
+            <a class="contact-card panel" href="mailto:cassiocioni@hotmail.com">
+                <span class="contact-icon" aria-hidden="true">@</span>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">cassiocioni@hotmail.com</span>
+                <span class="contact-arrow" aria-hidden="true">↗</span>
             </a>
-        </p>
-
-        <p><strong>GitHub:</strong> 
-            <a href="https://github.com/cassioccarmo" target="_blank">
-                github.com/cassioccarmo
+            <a class="contact-card panel" href="https://www.linkedin.com/in/cassioccarmo" target="_blank" rel="noopener noreferrer">
+                <span class="contact-icon" aria-hidden="true">in</span>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">Connect professionally</span>
+                <span class="contact-arrow" aria-hidden="true">↗</span>
             </a>
-        </p>
-    </div>
+            <a class="contact-card panel" href="https://github.com/cassioccarmo" target="_blank" rel="noopener noreferrer">
+                <span class="contact-icon" aria-hidden="true">&lt;/&gt;</span>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">Explore my code</span>
+                <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+        </section>
 
-    <footer>
-        <p>© 2025 Cássio Cioni Carmo</p>    
+        <section class="resume-card panel">
+            <div>
+                <p class="eyebrow">More about my experience</p>
+                <h2>Take a look at my résumé.</h2>
+            </div>
+            <a class="button button-primary" href="Cassio_Cioni_Carmo_CV_EN.pdf" target="_blank" rel="noopener noreferrer">Open résumé <span aria-hidden="true">↗</span></a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <span>© 2026 Cássio Cioni Carmo</span>
+        <span>Based in Brazil</span>
     </footer>
-
 </body>
 </html>

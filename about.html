@@ -3,57 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <meta name="description" content="Learn about Cássio Cioni Carmo, an embedded software engineer working with automotive, drones, and connected systems.">
+    <meta name="theme-color" content="#07110e">
+    <title>About — Cássio Cioni Carmo</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/script.js" defer></script>
 </head>
-
 <body>
-
-    <header>
-        <h1>About Me</h1>
-        <nav>
-            <ul>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Cássio Carmo — Home">
+            <span class="brand-mark">CC</span>
+            <span class="brand-name">Cássio Carmo<span class="brand-role">Embedded Software Engineer</span></span>
+        </a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <div class="container">
-        <h2>Who am I?</h2>
 
-        <p>
-            I am an Embedded Software Engineer with experience in automotive ECUs, autonomous drones, 
-            residential automation, and high-reliability embedded systems. My work focuses on firmware 
-            development, debugging, optimization, and integration of embedded technologies.
-        </p>
+    <main id="main-content" class="page-main">
+        <section class="page-heading">
+            <p class="eyebrow">A little about me</p>
+            <h1>Building technology you can <span>count on.</span></h1>
+            <p class="page-lead">I work at the intersection of embedded software, electronics, and real-world applications.</p>
+        </section>
 
-        <p>
-            I have practical experience with C, C++, and Python, as well as microcontrollers such as 
-            STM32, ESP32, ESP8266, and ATmega. My background also includes working with communication 
-            protocols such as CAN, SPI, I2C, LoRa, WiFi, and Bluetooth.
-        </p>
+        <section class="content-panel panel">
+            <h2>My approach</h2>
+            <p>
+                I am an Embedded Software Engineer with experience in automotive ECUs, autonomous drones,
+                residential automation, and high-reliability embedded systems. My work focuses on firmware
+                development, debugging, optimization, and the integration of embedded technologies.
+            </p>
+            <p>
+                Across my career, I have contributed to combustion engine control units, autonomous spraying
+                drones, and smart automation systems. I enjoy solving complex engineering problems and
+                building efficient, reliable, and maintainable software for real-time applications.
+            </p>
+        </section>
 
-        <p>
-            Throughout my career, I have contributed to software for combustion engine ECUs, 
-            autonomous spraying drones, and smart automation systems. My work often involves 
-            sensor integration, telemetry, data analysis, and developing optimized solutions for 
-            real-time embedded applications.
-        </p>
+        <section class="content-panel panel">
+            <p class="eyebrow">Tools of the trade</p>
+            <h2>Technologies I work with</h2>
+            <div class="tag-list" aria-label="Technologies">
+                <span>C</span><span>C++</span><span>Python</span><span>STM32</span><span>ESP32</span>
+                <span>ESP8266</span><span>ATmega</span><span>CAN</span><span>SPI</span><span>I²C</span>
+                <span>LoRa</span><span>Wi-Fi</span><span>Bluetooth</span>
+            </div>
+            <p class="muted-copy">I also work with sensor integration, telemetry, data analysis, and embedded control.</p>
+        </section>
+    </main>
 
-        <p>
-            I am motivated by solving complex engineering problems and building efficient, reliable, 
-            and maintainable embedded systems. I am constantly seeking new challenges and opportunities 
-            to advance in the fields of automotive software, embedded control, and system integration.
-        </p>
-    </div>
-    
-    <footer>
-        <p>© 2025 Cássio Cioni Carmo</p>    
+    <footer class="site-footer">
+        <span>© 2026 Cássio Cioni Carmo</span>
+        <a class="text-link" href="contact.html">Get in touch <span aria-hidden="true">→</span></a>
     </footer>
-
 </body>
 </html>
